@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "tournament-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

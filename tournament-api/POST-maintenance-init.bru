@@ -1,0 +1,16 @@
+meta {
+  name: POST-maintenance-init
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{host}}/api.php/maintenance/init
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
